@@ -40,6 +40,9 @@
   .tile.dark{background:var(--ink);border-color:var(--ink)}
   .tile.dark .k{color:#9aa0a8}.tile.dark .v{color:#fff}.tile.dark .s{color:#b9bec5}
 
+  .tile.hero{grid-row:span 2;background:#e9eefb;border-color:#c9d6f3;display:flex;flex-direction:column;justify-content:center}
+  .tile.hero .k{color:var(--accent)}.tile.hero .v{font-size:56px;color:var(--accent)}.tile.hero .s{font-size:13px}
+  @media (max-width:1200px),(max-height:820px){.tile.hero .v{font-size:40px}.tile.hero .s{font-size:11px}}
   .items{display:flex;flex-direction:column;gap:8px;margin-top:16px}
   .item{display:grid;grid-template-columns:auto 1fr;gap:18px;align-items:start;padding:9px 18px;
     border:1px solid var(--hair);border-radius:10px}
@@ -109,8 +112,7 @@
       <h2>Webinar&nbsp;#4: “Reduce Your Databricks Costs up to 75%”</h2>
       <div class="lede">Wednesday 15 October 2026 · 6 days out</div>
       <div class="tiles">
-        <div class="tile warn"><div class="k">Form registrations</div><div class="v">5</div><div class="s">self-registered on a form</div></div>
-        <div class="tile"><div class="k">WebinarGeek subs</div><div class="v">695</div><div class="s">5 form · 654 from RSVPs</div></div>
+        <div class="tile hero"><div class="k">WebinarGeek subs</div><div class="v">695</div><div class="s">5 form · 654 from RSVPs</div></div>
         <div class="tile"><div class="k">Landing-page sign-ups</div><div class="v">5</div><div class="s">both landing pages</div></div>
         <div class="tile"><div class="k">Calendar invites</div><div class="v">37,860</div><div class="s">99.5% of 38,056 planned</div></div>
         <div class="tile dark"><div class="k">Days to webinar</div><div class="v">6</div><div class="s">15 Oct 2026</div></div>
